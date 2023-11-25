@@ -4,32 +4,45 @@
   <title>Exhibition</title>
   <meta charset="utf-8">
   <style>
-    body {
-      font-family: 'D2 Coding', monospace;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      height: 100vh;
-      margin: 0;
-      text-align: center;
-    }
-    ul {
-      padding: 0;
-      list-style-type: none;
-    }
-    li {
-      margin-top: 10px;
-    }
-    a {
-      color: blue; /* 링크 기본 색상 설정 */
-    }
-    a:visited {
-      color: blue; /* 방문한 링크 색상 설정 */
-    }
-    li a[href="exhibitions.html"] {
-      color: red;
-    }
-  </style>
+  body {
+    font-family: 'D2 Coding', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  li {
+    margin-top: 10px;
+  }
+  a {
+    color: blue;
+  }
+  a:visited {
+    color: blue;
+  }
+
+  li a[href="exhibitions.html"] {
+    color: red; /* 빨간색으로 변경 */
+  }
+
+  li a[href="tt.html"] {
+    color: red; /* 빨간색으로 변경 */
+  }
+
+  div {
+    margin-top: 50px;
+  }
+  .jpg {
+    width: 20%;
+    display: inline-block;
+  }
+</style>
 </head>
 <body>
   <!-- <h2><a href="index.html">◀</a></h2> -->
@@ -48,6 +61,10 @@
     <li>Group/<a href="osm.html">Oksaekmoon(옥색문)</a>/Artist's studio, Seoul, Korea/2022.08.13-2022.08.21</li>
     <li>Group/<a href="dab.html">Diaspora and Belonging</a>/Mother London, London, England/2023.03.23</li>
   </ul>
+  <div>
+    <a href="tt_1.html"><img src="exhibitions/tt/1.jpg" class="jpg"></a>
+  </div>
+  <p>Exhibition views of 'Tradition:Transition-SYNC X PUNTO BLU', 2022</p>
 </body>
 </html>
 
